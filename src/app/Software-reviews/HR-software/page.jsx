@@ -2956,7 +2956,7 @@ return (
 
           {/* Recommendations Section */}
           <div className="bg-white rounded-2xl shadow-xl p-8">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">More software recommendations</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">More software recommendation</h2>
             <div className="space-y-3">
               {recommendations.map((recommendation, index) => (
                 <div key={index} className="flex items-center justify-between p-3 hover:bg-gray-50 rounded-lg transition-colors cursor-pointer group">
