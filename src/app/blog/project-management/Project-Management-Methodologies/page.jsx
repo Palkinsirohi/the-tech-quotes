@@ -294,6 +294,8 @@ export default function ProjectManagementGuide() {
     </div>
 
     
+    
+    
     {/* Disclaimer Section - adjusted padding */}
     <div className="max-w-3xl xl:max-w-4xl">
       <div className="flex items-start space-x-2 sm:space-x-3 bg-white/5 backdrop-blur-sm rounded-md sm:rounded-lg p-3 sm:p-4 lg:p-6 border border-white/10">
