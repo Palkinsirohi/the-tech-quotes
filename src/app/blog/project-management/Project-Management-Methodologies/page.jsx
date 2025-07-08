@@ -301,6 +301,7 @@ export default function ProjectManagementGuide() {
           <p>
             <span className="font-semibold text-white">
               Technology Advice
+            
             </span>{" "}
             is able to offer our services for free because some vendors
             may pay us for web traffic or other sales opportunities. Our
