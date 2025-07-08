@@ -336,7 +336,7 @@ export default function Employeedisciplinary() {
                 <Home className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 group-hover:scale-110 transition-transform" />
               </Link>
               <Link
-                href="/"
+                href="#"
                 className="text-white/80 hover:text-white transition-colors cursor-pointer"
                 aria-label="Go to homepage"
               >
