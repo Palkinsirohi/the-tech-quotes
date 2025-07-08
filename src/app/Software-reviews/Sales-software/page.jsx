@@ -21,7 +21,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
-export default function ProjectManagementPage() {
+export default function SalesSoftwarePage() {
   const [searchTerm, setSearchTerm] = useState("");
   const [productSearch, setProductSearch] = useState("");
   const [filterBy, setFilterBy] = useState("Reviews");
