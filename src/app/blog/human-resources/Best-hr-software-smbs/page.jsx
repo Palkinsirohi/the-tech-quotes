@@ -364,7 +364,7 @@ export default function Employeedisciplinary() {
               <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 rounded-full overflow-hidden flex-shrink-0 relative">
                 <Image
                   src="/images/h1.png"
-                  alt="Kara Sherrer - Author"
+                  alt="Kara Sherrer- Author"
                   fill
                   sizes="(max-width: 640px) 48px, (max-width: 1024px) 56px, 64px"
                   className="object-cover"
