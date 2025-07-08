@@ -329,7 +329,7 @@ export default function Employeedisciplinary() {
           >
             <div className="flex items-center space-x-2 sm:space-x-3 text-sm sm:text-base lg:text-lg">
               <Link
-                href="/"
+                href="#"
                 className="text-white/80 hover:text-white transition-colors group"
                 aria-label="Go to homepage"
               >
