@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My App
 
-## Getting Started
+This is a Next.js web application built with React 19 and Tailwind CSS. It includes various pages organized under the `src/app` directory, reusable components, and static assets.
 
-First, run the development server:
+## Project Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+.
+├── .gitignore                 # Git ignore rules
+├── eslint.config.mjs          # ESLint configuration
+├── jsconfig.json              # JavaScript configuration for module resolution
+├── next.config.mjs            # Next.js configuration
+├── package.json               # Project metadata and dependencies
+├── package-lock.json          # Exact versions of installed packages
+├── postcss.config.mjs         # PostCSS configuration for Tailwind CSS
+├── README.md                  # This file
+├── public/                    # Public static assets served at the root
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   ├── window.svg
+│   └── images/                # Many image files used in the app
+│       ├── 1CRM.png
+│       ├── 2-plan.png
+│       ├── ... (many images)
+│       └── sap.png
+├── src/
+│   ├── app/                   # Next.js app directory with pages and nested routes
+│   │   ├── favicon.ico
+│   │   ├── globals.css        # Global styles
+│   │   ├── layout.jsx         # Root layout component
+│   │   ├── page.jsx           # Root page component
+│   │   ├── About-Us/          # About Us section with nested pages
+│   │   ├── blog/              # Blog section with categories and posts
+│   │   └── Software-reviews/  # Software reviews section with categories
+│   ├── assets/                # Static assets like logos
+│   │   └── logo.svg
+│   └── components/            # Reusable React components
+│       ├── Footer.jsx
+│       └── Navbar.jsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Available Scripts
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+In the project directory, you can run:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `npm run dev`  
+  Runs the app in development mode with hot reloading.
 
-## Learn More
+- `npm run build`  
+  Builds the app for production.
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run start`  
+  Starts the production server.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run lint`  
+  Runs ESLint to check for code quality issues.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Dependencies
 
-## Deploy on Vercel
+- Next.js 15.3.4
+- React 19.0.0
+- Tailwind CSS 4
+- Framer Motion for animations
+- Lucide React and React Icons for icons
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is private.
